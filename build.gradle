@@ -278,6 +278,9 @@ subprojects {
 
 		useJUnitPlatform()
 
+                failFast = true
+                maxParallelForks = 1
+
 		retry {
 			maxFailures = 10
 			maxRetries = 1
